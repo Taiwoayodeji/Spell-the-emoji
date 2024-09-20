@@ -30,6 +30,7 @@ Step into the world of emoji puzzles! In this exciting fully responsive game, pl
 - Html
 - CSS
 - Bootstrap
+- JavaScript
 
 ### Screen Shots (Desktop)
 
