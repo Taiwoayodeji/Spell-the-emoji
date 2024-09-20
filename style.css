@@ -1,0 +1,108 @@
+body {
+    background-color: #ffffff;
+    display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    height: 95vh; /* Full viewport height */
+  }
+
+  div{
+    padding: 6px;
+    align-items: center;
+  }
+
+  .main-image img {
+    width: 200px;
+  }
+
+  .game-title{
+    font-size: 4.5em;
+    font-weight: bold;
+    color: #1e2a4a;
+  }
+  
+  .container-fluid{
+    padding: 15px;
+    text-align: center;
+    position: relative;
+  }
+
+  .btn-custom{
+    width: 55px;
+    opacity: 80%;
+  }
+
+  .btn-custom:hover{
+    opacity: 100%;
+  }
+
+  .image-container{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */ 
+  }
+
+  .image-container img{
+    width: 250px;
+  }
+
+  .word-guess {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+  }
+
+  .letter-box {
+    background-color: #e9ecef;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    /* Flexbox to center the content */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Optional: Ensures text aligns properly */
+  }
+
+  .keyboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .keyboard button {
+    background-color: #ffffff;
+    border: 1.5px solid #7a5ce663;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.4em;
+    color: #7b5ce6;
+  }
+  
+  .keyboard button:hover{
+    background-color: #7b5ce6; /* Change this to your desired hover color */
+    opacity: 100%;
+    color: #ffffff;
+  }
+
+  .submit-btn {
+    background-color: #0ecb17;
+    color: #ffffff;
+    border: none;
+    border-radius: 55px;
+    width: 100%;
+    padding: 15px;
+    width: 250px;
+    opacity: 50%;
+    font-size: 1.4em;
+    color: #ffffff;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0ecb17; /* Change this to your desired hover color */
+    color: white; /* Text color on hover (optional) */
+    opacity: 100%;
+  }
+  
+  
