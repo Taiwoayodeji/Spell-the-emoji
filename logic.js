@@ -61,7 +61,7 @@ function startNextRound() {
   } else if (round === 14) {
     document.getElementById("wordImage").src =
       "./Images/4 Letters/diskimg1.svg";
-    updateKeyboard(["K", "S", "B", "O", "I", "L", "D", "B"]);
+    updateKeyboard(["C", "S", "B", "O", "I", "L", "D", "B"]);
   } else if (round === 15) {
     document.getElementById("wordImage").src =
       "./Images/4 Letters/giftimg1.svg";
@@ -160,7 +160,7 @@ function submitWord() {
   } else if (round === 13) {
     correctWord = "BULB";
   } else if (round === 14) {
-    correctWord = "DISK";
+    correctWord = "DISC";
   } else if (round === 15) {
     correctWord = "GIFT";
   } else if (round === 16) {
@@ -319,7 +319,7 @@ function revealLetter() {
   } else if (round === 13) {
     correctWord = "BULB";
   } else if (round === 14) {
-    correctWord = "DISK";
+    correctWord = "DISC";
   } else if (round === 15) {
     correctWord = "GIFT";
   } else if (round === 16) {
