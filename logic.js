@@ -21,92 +21,110 @@ function startNextRound() {
 
   // Update the image and correct word based on the round
   if (round === 2) {
-    document.getElementById("wordImage").src = "./images/3 Letters/axeimg1.svg";
+    document.getElementById("wordImage").src = "./Images/3 Letters/axeimg1.svg";
     updateKeyboard(["A", "Q", "B", "X", "S", "C", "E", "T"]);
   } else if (round === 3) {
-    document.getElementById("wordImage").src = "./images/3 Letters/sunimg1.svg";
+    document.getElementById("wordImage").src = "./Images/3 Letters/sunimg1.svg";
     updateKeyboard(["U", "R", "O", "D", "Z", "S", "N", "W"]);
   } else if (round === 4) {
-    document.getElementById("wordImage").src = "./images/3 Letters/antimg1.svg";
+    document.getElementById("wordImage").src = "./Images/3 Letters/antimg1.svg";
     updateKeyboard(["D", "R", "F", "N", "T", "I", "A", "X"]);
   } else if (round === 5) {
-    document.getElementById("wordImage").src = "./images/3 Letters/bedimg1.svg";
+    document.getElementById("wordImage").src = "./Images/3 Letters/bedimg1.svg";
     updateKeyboard(["W", "E", "S", "D", "U", "Y", "J", "B"]);
   } else if (round === 6) {
-    document.getElementById("wordImage").src = "./images/3 Letters/hatimg1.svg";
+    document.getElementById("wordImage").src = "./Images/3 Letters/hatimg1.svg";
     updateKeyboard(["A", "R", "I", "T", "Q", "W", "H", "X"]);
   } else if (round === 7) {
-    document.getElementById("wordImage").src = "./images/3 Letters/beeimg1.svg";
+    document.getElementById("wordImage").src = "./Images/3 Letters/beeimg1.svg";
     updateKeyboard(["B", "N", "E", "A", "O", "H", "M", "E"]);
   } else if (round === 8) {
-    document.getElementById("wordImage").src = "./images/3 Letters/catimg1.svg";
+    document.getElementById("wordImage").src = "./Images/3 Letters/catimg1.svg";
     updateKeyboard(["K", "C", "G", "P", "O", "H", "T", "A"]);
   } else if (round === 9) {
-    document.getElementById("wordImage").src = "./images/3 Letters/pigimg1.svg";
+    document.getElementById("wordImage").src = "./Images/3 Letters/pigimg1.svg";
     updateKeyboard(["P", "S", "E", "G", "K", "I", "M", "E"]);
   } else if (round === 10) {
-    document.getElementById("wordImage").src = "./images/3 Letters/dogimg1.svg";
+    document.getElementById("wordImage").src = "./Images/3 Letters/dogimg1.svg";
     updateKeyboard(["B", "C", "D", "A", "O", "H", "L", "G"]);
   } else if (round === 11) {
-    document.getElementById("wordImage").src = "./images/3 Letters/ramimg1.svg";
+    document.getElementById("wordImage").src = "./Images/3 Letters/ramimg1.svg";
     updateKeyboard(["R", "X", "A", "E", "O", "H", "W", "M"]);
   } else if (round === 12) {
-    document.getElementById("wordImage").src = "./images/3 Letters/cowimg1.svg";
+    document.getElementById("wordImage").src = "./Images/3 Letters/cowimg1.svg";
     updateKeyboard(["B", "C", "E", "A", "O", "H", "Q", "W"]);
   } else if (round === 13) {
     addExtraLetterBox();
-    document.getElementById("wordImage").src = "/images/4 Letters/bulbimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/bulbimg1.svg";
     updateKeyboard(["U", "K", "B", "O", "Q", "L", "J", "B"]);
   } else if (round === 14) {
-    document.getElementById("wordImage").src = "/images/4 Letters/diskimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/diskimg1.svg";
     updateKeyboard(["K", "S", "B", "O", "I", "L", "D", "B"]);
   } else if (round === 15) {
-    document.getElementById("wordImage").src = "/images/4 Letters/giftimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/giftimg1.svg";
     updateKeyboard(["I", "K", "T", "O", "F", "L", "J", "G"]);
   } else if (round === 16) {
-    document.getElementById("wordImage").src = "/images/4 Letters/drumimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/drumimg1.svg";
     updateKeyboard(["U", "R", "B", "O", "D", "V", "J", "M"]);
   } else if (round === 17) {
-    document.getElementById("wordImage").src = "/images/4 Letters/coinimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/coinimg1.svg";
     updateKeyboard(["I", "K", "D", "P", "O", "L", "N", "C"]);
   } else if (round === 18) {
-    document.getElementById("wordImage").src = "/images/4 Letters/fireimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/fireimg1.svg";
     updateKeyboard(["F", "H", "I", "O", "R", "U", "E", "M"]);
   } else if (round === 19) {
-    document.getElementById("wordImage").src = "/images/4 Letters/kiwiimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/kiwiimg1.svg";
     updateKeyboard(["W", "K", "J", "O", "I", "L", "N", "I"]);
   } else if (round === 20) {
-    document.getElementById("wordImage").src = "/images/4 Letters/ballimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/ballimg1.svg";
     updateKeyboard(["U", "A", "B", "O", "L", "S", "M", "L"]);
   } else if (round === 21) {
-    document.getElementById("wordImage").src = "/images/4 Letters/tacoimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/tacoimg1.svg";
     updateKeyboard(["U", "C", "S", "O", "Q", "T", "L", "A"]);
   } else if (round === 22) {
-    document.getElementById("wordImage").src = "/images/4 Letters/ringimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/ringimg1.svg";
     updateKeyboard(["U", "L", "I", "P", "G", "N", "K", "R"]);
   } else if (round === 23) {
-    document.getElementById("wordImage").src = "/images/4 Letters/hookimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/hookimg1.svg";
     updateKeyboard(["O", "K", "B", "O", "Q", "E", "G", "H"]);
   } else if (round === 24) {
-    document.getElementById("wordImage").src = "/images/4 Letters/crabimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/crabimg1.svg";
     updateKeyboard(["U", "C", "B", "R", "Q", "F", "J", "A"]);
   } else if (round === 25) {
-    document.getElementById("wordImage").src = "/images/4 Letters/pearimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/pearimg1.svg";
     updateKeyboard(["A", "S", "E", "U", "R", "G", "F", "P"]);
   } else if (round === 26) {
-    document.getElementById("wordImage").src = "/images/4 Letters/bellimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/bellimg1.svg";
     updateKeyboard(["E", "K", "Z", "L", "A", "L", "J", "B"]);
   } else if (round === 27) {
-    document.getElementById("wordImage").src = "/images/4 Letters/woodimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/woodimg1.svg";
     updateKeyboard(["P", "O", "U", "D", "W", "H", "O", "R"]);
   } else if (round === 28) {
-    document.getElementById("wordImage").src = "/images/4 Letters/bookimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/bookimg1.svg";
     updateKeyboard(["A", "G", "B", "O", "Q", "O", "J", "K"]);
   } else if (round === 29) {
-    document.getElementById("wordImage").src = "/images/4 Letters/plugimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/plugimg1.svg";
     updateKeyboard(["U", "K", "G", "O", "Q", "L", "P", "F"]);
   } else if (round === 30) {
-    document.getElementById("wordImage").src = "/images/4 Letters/doorimg1.svg";
+    document.getElementById("wordImage").src =
+      "./Images/4 Letters/doorimg1.svg";
     updateKeyboard(["D", "K", "B", "O", "R", "Q", "O", "A"]);
   }
 }
